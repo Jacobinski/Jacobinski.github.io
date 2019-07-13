@@ -1,22 +1,22 @@
 body {
-		background:#fafafa;
-		color:#212121;
-		font-family: 'Roboto Mono', monospace;
-		font-size: .8em;
-		display: flex;
-		justify-content: center;
-	}
-	.container {
-		max-width: 650px;
-	}
-	h1 {
-		font-weight: 400;
-		margin: 0;
-	}
-	h2 {
-		color:#424242;
-		font-weight: 300;
-		margin: 0 0 .5em 0;
+        background:#fafafa;
+        color:#212121;
+        font-family: 'Roboto Mono', monospace;
+        font-size: .8em;
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        max-width: 650px;
+    }
+    h1 {
+        font-weight: 400;
+        margin: 0;
+    }
+    h2 {
+        color:#424242;
+        font-weight: 300;
+        margin: 0 0 .5em 0;
     }
     h3 {
         color:#616161;
@@ -24,20 +24,20 @@ body {
         margin: 1em 0 .5em 0;
     }
 
-	.links {
-		margin: 0 0 1.5em 0;
-	}
-	.links a {
-		color:#9e9e9e;
-		margin: auto 1em auto 0;
-	}
-	.intro {
-		margin: 0 0 1em 0;
-	}
-	.intro a {
-		color:#0288d1;
-		text-decoration: none;
-	}
+    .links {
+        margin: 0 0 1.5em 0;
+    }
+    .links a {
+        color:#9e9e9e;
+        margin: auto 1em auto 0;
+    }
+    .intro {
+        margin: 0 0 1em 0;
+    }
+    .intro a {
+        color:#0288d1;
+        text-decoration: none;
+    }
 
     .experience .company{
         color: #616161;
@@ -48,13 +48,13 @@ body {
         color: #9e9e9e;
         font-weight: 400;
         margin: 0 0 0.5em 2em;
-	}
-	.experience .description{
-		margin: 0 0 1em 2em;
-	}
+    }
+    .experience .description{
+        margin: 0 0 1em 2em;
+    }
     .experience a {
-		color: #0288d1;
-		text-decoration: none;
+        color: #0288d1;
+        text-decoration: none;
     }
     .experience li {
         margin-bottom: 0.5em;
@@ -68,10 +68,10 @@ body {
         width: 25%;
     }
 
-	.projects a {
-		color: #0288d1;
-		text-decoration: none;
-	}
+    .projects a {
+        color: #0288d1;
+        text-decoration: none;
+    }
     .projects .center {
         display: block;
         margin-left: auto;
@@ -82,16 +82,16 @@ body {
     }
     .projects p {
         margin: 0 0 0 0;
-	}
-	.projects .description{
-		margin: 0 0 1em 2em;
-	}
+    }
+    .projects .description{
+        margin: 0 0 1em 2em;
+    }
 
-	@media (max-width: 600px) {
-		.changelog li .left {
-			min-width: 160px;
-		}
-		.links a {
-			margin: auto 1.5em auto 0;
-		}
-	}
+    @media (max-width: 600px) {
+        .changelog li .left {
+            min-width: 160px;
+        }
+        .links a {
+            margin: auto 1.5em auto 0;
+        }
+    }
