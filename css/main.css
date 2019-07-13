@@ -23,7 +23,7 @@ body {
         font-weight: 400;
         margin: 1em 0 .5em 0;
     }
-    
+
 	.links {
 		margin: 0 0 1.5em 0;
 	}
@@ -35,7 +35,7 @@ body {
 		margin: 0 0 1em 0;
 	}
 	.intro a {
-		color: #4caf50;
+		color:#0288d1;
 		text-decoration: none;
 	}
 
@@ -45,16 +45,18 @@ body {
         margin: 0 0 0.2em 0;
     }
     .experience .position{
-        color: #757575;
+        color: #9e9e9e;
         font-weight: 400;
-        margin: 0 0 1em 0;
-    }
+        margin: 0 0 0.5em 2em;
+	}
+	.experience .description{
+		margin: 0 0 1em 2em;
+	}
     .experience a {
 		color: #0288d1;
 		text-decoration: none;
     }
     .experience li {
-        color: #757575;
         margin-bottom: 0.5em;
     }
     .experience .center {
@@ -80,7 +82,10 @@ body {
     }
     .projects p {
         margin: 0 0 0 0;
-    }
+	}
+	.projects .description{
+		margin: 0 0 1em 2em;
+	}
 
 	@media (max-width: 600px) {
 		.changelog li .left {
@@ -90,4 +95,3 @@ body {
 			margin: auto 1.5em auto 0;
 		}
 	}
-	
